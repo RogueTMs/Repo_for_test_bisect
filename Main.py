@@ -25,3 +25,9 @@ target = 2
 
 ans = search(nums, target)
 assert ans == -1, 'Упал'
+
+nums = [-1, 0, 3, 5, 9, 12, 5, 34, 8, 2]
+target = 34
+
+ans = search(nums, target)
+assert ans == 7, 'Упал'
