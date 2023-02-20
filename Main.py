@@ -11,7 +11,7 @@ def search(nums, target: int) -> int:
         else:
             l = cur + 1
 
-    return -1
+    return False
 
 
 nums = [-1, 0, 3, 5, 9, 12]
